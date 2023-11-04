@@ -38,7 +38,7 @@ const getData = async (event) => {
     // `http://api.weatherapi.com/v1/current.json?key=1&q=${city}`
     // `http://api.weatherapi.com/v1/current.json?key=ea180275cfb64a2287f75107231202&q=${city}`
 
-    `http://api.weatherapi.com/v1/forecast.json?key=62573e1ec4e84bdfbbb73254231602&q=${city}&days=5`
+    `https://api.weatherapi.com/v1/forecast.json?key=62573e1ec4e84bdfbbb73254231602&q=${city}`
 
   );
 
